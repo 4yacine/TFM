@@ -1,0 +1,36 @@
+Building_10 : [{'carbon_emissions': 0.937, 'cost': 0.87, 'electricity_consumption': 0.954, 'zero_net_energy': 1.069}]
+Building_6 : [{'carbon_emissions': 0.952, 'cost': 0.85, 'electricity_consumption': 0.976, 'zero_net_energy': 1.1}]
+Building_7 : [{'carbon_emissions': 0.984, 'cost': 0.918, 'electricity_consumption': 1.001, 'zero_net_energy': 1.315}]
+Building_8 : [{'carbon_emissions': 0.959, 'cost': 0.858, 'electricity_consumption': 0.972, 'zero_net_energy': 1.171}]
+Building_9 : [{'carbon_emissions': 0.899, 'cost': 0.782, 'electricity_consumption': 0.927, 'zero_net_energy': 1.229}]
+District : [{'1 - load_factor': 0.967, 'average_daily_peak': 0.888, 'carbon_emissions': 0.946, 'cost': 0.856, 'electricity_consumption': 0.966, 'peak_demand': 0.971, 'ramping': 1.063, 'zero_net_energy': 1.177}]
+
+Reward:  [-0.34001823 -0.21653411 -0.26397203 -0.22878951 -0.45242018]
+
+Average reward -0.30034681128340773
+---------------------------------------------------------------------------------------------------------
+
+Building_10 : [{'carbon_emissions': 0.999, 'cost': 0.995, 'electricity_consumption': 0.999, 'zero_net_energy': 1.006}]
+Building_6 : [{'carbon_emissions': 1.005, 'cost': 1.001, 'electricity_consumption': 1.007, 'zero_net_energy': 1.011}]
+Building_7 : [{'carbon_emissions': 1.0, 'cost': 1.0, 'electricity_consumption': 1.0, 'zero_net_energy': 1.008}]
+Building_8 : [{'carbon_emissions': 0.997, 'cost': 0.994, 'electricity_consumption': 0.997, 'zero_net_energy': 1.01}]
+Building_9 : [{'carbon_emissions': 0.991, 'cost': 0.987, 'electricity_consumption': 0.991, 'zero_net_energy': 1.016}]
+District : [{'1 - load_factor': 1.003, 'average_daily_peak': 0.994, 'carbon_emissions': 0.999, 'cost': 0.996, 'electricity_consumption': 0.999, 'peak_demand': 1.0, 'ramping': 1.003, 'zero_net_energy': 1.01}]
+
+Reward:  [-0.38553884 -0.23002296 -0.2941747  -0.27557308 -0.50496173]
+
+Average reward -0.3380542628991776
+---------------------------------------------------------------------------------------------------------
+
+Building_10 : [{'carbon_emissions': 1.317, 'cost': 1.295, 'electricity_consumption': 1.323, 'zero_net_energy': 1.147}]
+Building_6 : [{'carbon_emissions': 1.479, 'cost': 1.427, 'electricity_consumption': 1.486, 'zero_net_energy': 1.219}]
+Building_7 : [{'carbon_emissions': 1.913, 'cost': 1.869, 'electricity_consumption': 1.96, 'zero_net_energy': 2.073}]
+Building_8 : [{'carbon_emissions': 1.65, 'cost': 1.626, 'electricity_consumption': 1.658, 'zero_net_energy': 1.409}]
+Building_9 : [{'carbon_emissions': 1.764, 'cost': 1.653, 'electricity_consumption': 1.816, 'zero_net_energy': 1.558}]
+District : [{'1 - load_factor': 1.003, 'average_daily_peak': 1.546, 'carbon_emissions': 1.624, 'cost': 1.574, 'electricity_consumption': 1.649, 'peak_demand': 1.524, 'ramping': 2.783, 'zero_net_energy': 1.481}]
+
+Reward:  [-0.55545519 -0.43352309 -0.48288095 -0.47089217 -0.66020528]
+
+Average reward -0.520591336508331
+---------------------------------------------------------------------------------------------------------
+

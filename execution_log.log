@@ -1,0 +1,1212 @@
+06-27 11:45 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+06-27 11:45 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+06-27 11:45 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+06-27 11:45 | INFO    | __main__                 | 81   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/examples/CityLearn/citylearn_example.py
+06-27 11:45 | INFO    | src.AutoGrid             | 171  | Starting execution.
+06-27 11:45 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_1]
+06-27 11:45 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+06-27 11:45 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<__main__.agent object at 0x7f97f3355430>] with trainner: DEFAULT({'total_timesteps': 100})
+06-27 11:46 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+06-27 11:46 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+06-27 11:46 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+06-27 11:46 | INFO    | __main__                 | 81   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/examples/CityLearn/citylearn_example.py
+06-27 11:46 | INFO    | src.AutoGrid             | 171  | Starting execution.
+06-27 11:46 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_1]
+06-27 11:46 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+06-27 11:46 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<__main__.agent object at 0x7f97d4a973d0>] with trainner: DEFAULT({'total_timesteps': 100})
+06-27 12:04 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+06-27 12:04 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+06-27 12:04 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+06-27 12:04 | INFO    | __main__                 | 58   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/examples/CityLearn/SB3_example.py
+06-27 12:04 | INFO    | src.AutoGrid             | 171  | Starting execution.
+06-27 12:04 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_1]
+06-27 12:04 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+06-27 12:04 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<stable_baselines3.sac.sac.SAC object at 0x7fd899472fd0>] with trainner: DEFAULT({'total_timesteps': 30000})
+06-27 12:04 | WARNING | src.trainner.default     | 19   | Removing 'save_path' from '<bound method SAC.learn of <stable_baselines3.sac.sac.SAC object at 0x7fd899472fd0>>' function, since its not a valid parameter
+06-27 12:10 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+06-27 12:11 | INFO    | src.AutoGrid             | 195  | Finished execution.
+06-27 12:44 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+06-27 12:44 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+06-27 12:44 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+06-27 12:44 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+06-27 12:44 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+06-27 12:44 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+06-27 12:44 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+06-27 12:44 | INFO    | src.AutoGrid             | 171  | Starting execution.
+06-27 12:44 | INFO    | src.AutoGrid             | 173  | Executing experiment [common]
+06-27 12:44 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f5f77cdd550>(([], {}))
+06-27 12:46 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+06-27 12:46 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+06-27 12:46 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+06-27 12:46 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+06-27 12:46 | INFO    | src.AutoGrid             | 171  | Starting execution.
+06-27 12:46 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+06-27 12:46 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f50d5693550>(([], {}))
+06-27 12:46 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+06-27 12:46 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7f50d5692220>] with trainner: DEFAULT({'episodes': 2})
+06-27 13:06 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+06-27 13:07 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+06-27 13:07 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f50d5693550>(([], {}))
+06-27 13:07 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+06-27 13:07 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7f50d1cd3400>] with trainner: DEFAULT({'episodes': 2})
+06-27 13:27 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+06-27 13:27 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+06-27 13:27 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f50d5693550>(([], {}))
+06-27 13:27 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+06-27 13:27 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f50d0b917c0>] with trainner: DEFAULT({'episodes': 2})
+06-27 13:28 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+06-27 13:28 | INFO    | src.AutoGrid             | 195  | Finished execution.
+07-04 10:49 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-04 10:49 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-04 10:49 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-04 10:49 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-04 10:49 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-04 10:49 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+07-04 10:49 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7efbdb6c5550>(([], {}))
+07-04 10:49 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-04 10:49 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7efbdb6c41f0>] with trainner: DEFAULT({'episodes': 2})
+07-04 10:50 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-04 10:50 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-04 10:50 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-04 10:50 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-04 10:50 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-04 10:50 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+07-04 10:50 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f212d725550>(([], {}))
+07-04 10:50 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-04 10:50 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7f212d7241f0>] with trainner: DEFAULT({'episodes': 2})
+07-04 10:52 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-04 10:52 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-04 10:52 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-04 10:52 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-04 10:52 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-04 10:52 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+07-04 10:52 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fd67d3aa550>(([], {}))
+07-04 10:52 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-04 10:52 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7fd67d3ab1c0>] with trainner: DEFAULT({'episodes': 2})
+07-04 10:53 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-04 10:53 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-04 10:53 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-04 10:53 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-04 10:53 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-04 10:53 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+07-04 10:53 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f26b3c45550>(([], {}))
+07-04 10:53 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-04 10:53 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7f26b3c461c0>] with trainner: DEFAULT({'episodes': 2})
+07-04 10:57 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-04 10:57 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-04 10:57 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-04 10:57 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-04 10:57 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-04 10:57 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+07-04 10:57 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fe9e6090550>(([], {}))
+07-04 10:57 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-04 10:57 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7fe9e608e1f0>] with trainner: DEFAULT({'episodes': 2})
+07-04 11:14 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-04 11:14 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+07-04 11:14 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fe9e6090550>(([], {}))
+07-04 11:14 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-04 11:14 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7fe9e2624df0>] with trainner: DEFAULT({'episodes': 2})
+07-04 11:32 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-04 11:32 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-04 11:32 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fe9e6090550>(([], {}))
+07-04 11:32 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-04 11:32 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fe9e158f790>] with trainner: DEFAULT({'episodes': 2})
+07-04 11:32 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-04 11:32 | INFO    | src.AutoGrid             | 195  | Finished execution.
+07-05 12:46 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-05 12:46 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-05 12:46 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-05 12:46 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-05 12:46 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-05 12:46 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-05 12:46 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7feeb41c5550>(([], {}))
+07-05 12:46 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-05 12:46 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7feeb41c71c0>] with trainner: DEFAULT({'episodes': 2})
+07-05 12:46 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-05 12:46 | INFO    | src.AutoGrid             | 195  | Finished execution.
+07-05 12:47 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-05 12:47 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-05 12:47 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-05 12:47 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-05 12:47 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-05 12:47 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-05 12:47 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f1ca12f74c0>(([], {}))
+07-05 12:47 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-05 12:47 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f1ca12f81c0>] with trainner: DEFAULT({'episodes': 2})
+07-05 12:47 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-05 12:47 | INFO    | src.AutoGrid             | 195  | Finished execution.
+07-05 12:49 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-05 12:49 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-05 12:49 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-05 12:49 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-05 12:49 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-05 12:49 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-05 12:49 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fa976a2f4c0>(([], {}))
+07-05 12:49 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-05 12:49 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fa976a301c0>] with trainner: DEFAULT({'episodes': 2})
+07-05 12:49 | INFO    | src.AutoGrid             | 186  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-05 12:49 | INFO    | src.AutoGrid             | 196  | Finished execution.
+07-05 13:05 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-05 13:05 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-05 13:05 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-05 13:05 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-05 13:05 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-05 13:05 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-05 13:05 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f9d76ad2550>(([], {}))
+07-05 13:05 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-05 13:05 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f9d76ad31c0>] with trainner: DEFAULT({'episodes': 2})
+07-05 13:05 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-05 13:05 | INFO    | src.AutoGrid             | 195  | Finished execution.
+07-05 13:05 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-05 13:05 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-05 13:05 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-05 13:05 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-05 13:05 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-05 13:05 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-05 13:05 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fc901f98550>(([], {}))
+07-05 13:05 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-05 13:05 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fc901f9a1c0>] with trainner: DEFAULT({'episodes': 2})
+07-05 13:05 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-05 13:05 | INFO    | src.AutoGrid             | 195  | Finished execution.
+07-05 13:06 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-05 13:06 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-05 13:06 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-05 13:06 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-05 13:06 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-05 13:06 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-05 13:06 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f585e4bf4c0>(([], {}))
+07-05 13:06 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-05 13:06 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f585e4c1160>] with trainner: DEFAULT({'episodes': 2})
+07-05 13:06 | INFO    | src.AutoGrid             | 186  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-05 13:06 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-05 13:07 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-05 13:07 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-05 13:07 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-05 13:07 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-05 13:07 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-05 13:07 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-05 13:07 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fafb0c254c0>(([], {}))
+07-05 13:07 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-05 13:07 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fafb0c27160>] with trainner: DEFAULT({'episodes': 2})
+07-05 13:08 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-05 13:08 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-05 13:09 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-05 13:09 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-05 13:09 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-05 13:09 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-05 13:09 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-05 13:09 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-05 13:09 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f48ef3454c0>(([], {}))
+07-05 13:09 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-05 13:09 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f48ef346190>] with trainner: DEFAULT({'episodes': 2})
+07-05 13:09 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-05 13:09 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-05 18:59 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-05 18:59 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-05 18:59 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-05 18:59 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-05 18:59 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-05 18:59 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-05 18:59 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f2dc63ec4c0>(([], {}))
+07-05 18:59 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-05 18:59 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f2dc63ee190>] with trainner: DEFAULT({'episodes': 2})
+07-05 19:00 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-05 19:00 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-09 07:26 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-09 07:26 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-09 07:26 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-09 07:26 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-09 07:26 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-09 07:26 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-09 07:26 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f692627a4c0>(([], {}))
+07-09 07:27 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 07:27 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f692627d160>] with trainner: DEFAULT({'episodes': 2})
+07-09 07:27 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 07:27 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-09 07:27 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-09 07:27 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-09 07:27 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-09 07:27 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-09 07:27 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-09 07:27 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-09 07:27 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fcba420c4c0>(([], {}))
+07-09 07:27 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 07:27 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fcba420f160>] with trainner: DEFAULT({'episodes': 2})
+07-09 07:27 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 07:27 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-09 08:14 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-09 08:14 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-09 08:14 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-09 08:14 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-09 08:14 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-09 08:14 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-09 08:14 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fd0341a74c0>(([], {}))
+07-09 08:14 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 08:14 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fd0341a9190>] with trainner: DEFAULT({'episodes': 2})
+07-09 08:14 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 08:15 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-09 08:16 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-09 08:16 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-09 08:16 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-09 08:16 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-09 08:16 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-09 08:16 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-09 08:16 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fc0a25e54c0>(([], {}))
+07-09 08:16 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 08:16 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fc0a25e7190>] with trainner: DEFAULT({'episodes': 2})
+07-09 08:17 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 08:17 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-09 08:52 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-09 08:52 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-09 08:52 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-09 08:52 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-09 08:52 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-09 08:52 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-09 08:52 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f5eb061c4c0>(([], {}))
+07-09 08:52 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 08:52 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f5eb061e190>] with trainner: DEFAULT({'episodes': 2})
+07-09 08:52 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 08:53 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-09 08:53 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-09 08:53 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-09 08:53 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-09 08:53 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-09 08:53 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-09 08:53 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f5270f844c0>(([], {}))
+07-09 08:53 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 08:53 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f5270f861c0>] with trainner: DEFAULT({'episodes': 2})
+07-09 08:53 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 08:55 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-09 08:55 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-09 08:55 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-09 08:55 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-09 08:55 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-09 08:55 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-09 08:55 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fd7bd5144c0>(([], {}))
+07-09 08:55 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 08:55 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fd7bd5161c0>] with trainner: DEFAULT({'episodes': 2})
+07-09 08:55 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 08:55 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-09 08:55 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-09 08:55 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-09 08:55 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-09 08:55 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-09 08:55 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-09 08:55 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-09 08:55 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f0ef2a4a4c0>(([], {}))
+07-09 08:55 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 08:55 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f0ef2a4c1c0>] with trainner: DEFAULT({'episodes': 2})
+07-09 08:56 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 08:56 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-09 08:57 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-09 08:57 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-09 08:57 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-09 08:57 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-09 08:57 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-09 08:57 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-09 08:57 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fd96400c4c0>(([], {}))
+07-09 08:57 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 08:57 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fd96400e190>] with trainner: DEFAULT({'episodes': 2})
+07-09 08:57 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 08:58 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-09 09:56 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-09 09:56 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-09 09:56 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-09 09:56 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-09 09:56 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-09 09:56 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-09 09:56 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fe3a3a6b4c0>(([], {}))
+07-09 09:56 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 09:56 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fe3a3a70130>] with trainner: DEFAULT({'episodes': 2})
+07-09 09:57 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 09:58 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-09 09:58 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-09 09:58 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-09 09:58 | INFO    | __main__                 | 95   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-09 09:58 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-09 09:58 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-09 09:58 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f03e1f144c0>(([], {}))
+07-09 09:58 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 09:58 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f03e1f18130>] with trainner: DEFAULT({'episodes': 2})
+07-09 09:58 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 09:58 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-09 11:25 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-09 11:25 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-09 11:25 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-09 11:25 | INFO    | __main__                 | 98   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-09 11:25 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-09 11:25 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-09 11:25 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f27c24984c0>(([], {}))
+07-09 11:25 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 11:25 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f27c249e0d0>] with trainner: DEFAULT({'episodes': 2})
+07-09 11:25 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 11:26 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-09 11:27 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-09 11:27 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-09 11:27 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-09 11:27 | INFO    | __main__                 | 98   | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-09 11:27 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-09 11:27 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-09 11:27 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f29c13144c0>(([], {}))
+07-09 11:27 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 11:27 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f29c1318130>] with trainner: DEFAULT({'episodes': 2})
+07-09 11:27 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 11:27 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-09 12:39 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-09 12:39 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-09 12:39 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-09 12:39 | INFO    | __main__                 | 100  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-09 12:39 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-09 12:39 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-09 12:39 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f915909a4c0>(([], {}))
+07-09 12:39 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 12:39 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f915909d160>] with trainner: DEFAULT({'episodes': 2})
+07-09 12:40 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-09 12:40 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-09 12:40 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-09 12:40 | INFO    | __main__                 | 100  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-09 12:40 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-09 12:40 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-09 12:40 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f2f7ab754c0>(([], {}))
+07-09 12:40 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 12:40 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f2f7ab7b100>] with trainner: DEFAULT({'episodes': 2})
+07-09 12:40 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 12:40 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-09 12:41 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-09 12:41 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-09 12:41 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-09 12:41 | INFO    | __main__                 | 100  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-09 12:41 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-09 12:41 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+07-09 12:41 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fda289434c0>(([], {}))
+07-09 12:41 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 12:41 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7fda28949100>] with trainner: DEFAULT({'episodes': 2})
+07-09 12:58 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 12:59 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+07-09 12:59 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fda289434c0>(([], {}))
+07-09 12:59 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 12:59 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7fda24edd970>] with trainner: DEFAULT({'episodes': 2})
+07-09 13:17 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 13:17 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-09 13:17 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fda289434c0>(([], {}))
+07-09 13:17 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 13:17 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fda1e1ade50>] with trainner: DEFAULT({'episodes': 2})
+07-09 13:17 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 13:17 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-09 13:32 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-09 13:32 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-09 13:32 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-09 13:32 | INFO    | __main__                 | 100  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-09 13:32 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-09 13:32 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+07-09 13:32 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fe793a974c0>(([], {}))
+07-09 13:32 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 13:32 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7fe793a9d0d0>] with trainner: DEFAULT({'episodes': 2})
+07-09 13:49 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 13:50 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+07-09 13:50 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fe793a974c0>(([], {}))
+07-09 13:50 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 13:50 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7fe790031700>] with trainner: DEFAULT({'episodes': 2})
+07-09 14:08 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 14:08 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-09 14:08 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fe793a974c0>(([], {}))
+07-09 14:08 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 14:08 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fe7892e6d00>] with trainner: DEFAULT({'episodes': 2})
+07-09 14:08 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 14:08 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-09 14:16 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-09 14:16 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-09 14:16 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-09 14:16 | INFO    | __main__                 | 100  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-09 14:16 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-09 14:16 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+07-09 14:16 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f02f52f84c0>(([], {}))
+07-09 14:16 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 14:16 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7f02f52fe0a0>] with trainner: DEFAULT({'episodes': 2})
+07-09 14:34 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 14:34 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+07-09 14:34 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f02f52f84c0>(([], {}))
+07-09 14:34 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 14:34 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7f02f187d8b0>] with trainner: DEFAULT({'episodes': 2})
+07-09 14:52 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 14:52 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-09 14:52 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f02f52f84c0>(([], {}))
+07-09 14:52 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 14:52 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f02f0754e80>] with trainner: DEFAULT({'episodes': 2})
+07-09 14:52 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 14:52 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-09 14:54 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-09 14:54 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-09 14:54 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-09 14:54 | INFO    | __main__                 | 100  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-09 14:54 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-09 14:54 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+07-09 14:54 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fa5be9264c0>(([], {}))
+07-09 14:54 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 14:54 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7fa5be92c0a0>] with trainner: DEFAULT({'episodes': 2})
+07-09 15:12 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 15:13 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+07-09 15:13 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fa5be9264c0>(([], {}))
+07-09 15:13 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 15:13 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7fa5baea98b0>] with trainner: DEFAULT({'episodes': 2})
+07-09 15:31 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 15:31 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-09 15:31 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fa5be9264c0>(([], {}))
+07-09 15:31 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 15:31 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fa5b9d83e80>] with trainner: DEFAULT({'episodes': 2})
+07-09 15:32 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 15:32 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-09 16:19 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-09 16:19 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-09 16:19 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-09 16:19 | INFO    | __main__                 | 100  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-09 16:19 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-09 16:19 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+07-09 16:19 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fb62943a4c0>(([], {}))
+07-09 16:19 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 16:19 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7fb6294400a0>] with trainner: DEFAULT({'episodes': 2})
+07-09 16:36 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 16:37 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+07-09 16:37 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fb62943a4c0>(([], {}))
+07-09 16:37 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 16:37 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7fb625ac8850>] with trainner: DEFAULT({'episodes': 2})
+07-09 18:47 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-09 18:47 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-09 18:47 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-09 18:47 | INFO    | __main__                 | 100  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-09 18:47 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-09 18:47 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+07-09 18:47 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f72acdac4c0>(([], {}))
+07-09 18:47 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 18:47 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7f72acdb20a0>] with trainner: DEFAULT({'episodes': 2})
+07-09 19:05 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 19:05 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+07-09 19:05 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f72acdac4c0>(([], {}))
+07-09 19:05 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 19:05 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7f72a93308b0>] with trainner: DEFAULT({'episodes': 2})
+07-09 19:23 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 19:23 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-09 19:23 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f72acdac4c0>(([], {}))
+07-09 19:23 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 19:23 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f72a8209eb0>] with trainner: DEFAULT({'episodes': 2})
+07-09 19:24 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 19:24 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-09 19:29 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-09 19:29 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-09 19:29 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-09 19:29 | INFO    | __main__                 | 100  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-09 19:29 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-09 19:29 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+07-09 19:29 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f740c1ba4c0>(([], {}))
+07-09 19:29 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 19:29 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7f740c1c00a0>] with trainner: DEFAULT({'episodes': 2})
+07-09 19:47 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 19:47 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+07-09 19:47 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f740c1ba4c0>(([], {}))
+07-09 19:47 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 19:47 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7f74087408b0>] with trainner: DEFAULT({'episodes': 2})
+07-09 20:05 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 20:05 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-09 20:05 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f740c1ba4c0>(([], {}))
+07-09 20:05 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-09 20:05 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f74035dbe80>] with trainner: DEFAULT({'episodes': 2})
+07-09 20:05 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-09 20:06 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-10 10:25 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-10 10:25 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-10 10:25 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-10 10:25 | INFO    | __main__                 | 100  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-10 10:25 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-10 10:25 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+07-10 10:25 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f9c42c464c0>(([], {}))
+07-10 10:25 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-10 10:25 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7f9c42c4c0a0>] with trainner: DEFAULT({'episodes': 2})
+07-10 10:43 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-10 10:43 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+07-10 10:43 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f9c42c464c0>(([], {}))
+07-10 10:43 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-10 10:43 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7f9c3f1cb8b0>] with trainner: DEFAULT({'episodes': 2})
+07-10 11:03 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-10 11:03 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-10 11:03 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f9c42c464c0>(([], {}))
+07-10 11:03 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-10 11:03 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f9c3e0a2eb0>] with trainner: DEFAULT({'episodes': 2})
+07-10 11:03 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-10 11:03 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-10 11:06 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-10 11:06 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-10 11:06 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-10 11:06 | INFO    | __main__                 | 100  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-10 11:06 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-10 11:06 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+07-10 11:06 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fd8c2ece4c0>(([], {}))
+07-10 11:06 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-10 11:06 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7fd8c2ed40a0>] with trainner: DEFAULT({'episodes': 2})
+07-10 11:25 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-10 11:25 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+07-10 11:25 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fd8c2ece4c0>(([], {}))
+07-10 11:25 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-10 11:25 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7fd8bf4538b0>] with trainner: DEFAULT({'episodes': 2})
+07-10 11:45 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-10 11:45 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-10 11:45 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fd8c2ece4c0>(([], {}))
+07-10 11:45 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-10 11:45 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fd8be32be80>] with trainner: DEFAULT({'episodes': 2})
+07-10 11:45 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-10 11:45 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-10 11:54 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-10 11:54 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-10 11:54 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-10 11:54 | INFO    | __main__                 | 100  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-10 11:54 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-10 11:54 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+07-10 11:54 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7ff299d134c0>(([], {}))
+07-10 11:54 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-10 11:54 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7ff299d190a0>] with trainner: DEFAULT({'episodes': 2})
+07-10 12:12 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-10 12:12 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+07-10 12:12 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7ff299d134c0>(([], {}))
+07-10 12:12 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-10 12:12 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7ff2962988b0>] with trainner: DEFAULT({'episodes': 2})
+07-10 12:30 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-10 12:30 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-10 12:30 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7ff299d134c0>(([], {}))
+07-10 12:30 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-10 12:30 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7ff29516fe80>] with trainner: DEFAULT({'episodes': 2})
+07-10 12:31 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-10 12:31 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-26 17:32 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-26 17:32 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-26 17:32 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-26 17:32 | INFO    | __main__                 | 100  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-26 17:32 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-26 17:32 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-26 17:32 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f0ae7c914c0>(([], {}))
+07-26 17:32 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-26 17:32 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f0ae7c94160>] with trainner: DEFAULT({'episodes': 2})
+07-26 17:32 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-26 17:32 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-26 17:48 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-26 17:48 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-26 17:48 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-26 17:48 | INFO    | __main__                 | 100  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-26 17:48 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-26 17:48 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-26 17:48 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f5996ba74c0>(([], {}))
+07-26 17:48 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-26 17:48 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f5996bac130>] with trainner: DEFAULT({'episodes': 2})
+07-26 17:48 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-26 17:48 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-26 18:01 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-26 18:01 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-26 18:01 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-26 18:01 | INFO    | __main__                 | 100  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-26 18:01 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-26 18:01 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-26 18:01 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fe574e0c4c0>(([], {}))
+07-26 18:01 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-26 18:01 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fe574e13100>] with trainner: DEFAULT({'episodes': 2})
+07-26 18:01 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-26 18:01 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-26 18:02 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-26 18:02 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-26 18:02 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-26 18:02 | INFO    | __main__                 | 100  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-26 18:02 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-26 18:02 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-26 18:02 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fc2e565a4c0>(([], {}))
+07-26 18:02 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-26 18:02 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fc2e565f100>] with trainner: DEFAULT({'episodes': 2})
+07-26 18:02 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-26 18:02 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-26 18:12 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-26 18:12 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-26 18:12 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-26 18:12 | INFO    | __main__                 | 100  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-26 18:12 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-26 18:12 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-26 18:12 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fe1a949a4c0>(([], {}))
+07-26 18:12 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-26 18:12 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fe1a94a1100>] with trainner: DEFAULT({'episodes': 1})
+07-26 18:12 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-26 18:12 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-26 18:16 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-26 18:16 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-26 18:16 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-26 18:16 | INFO    | __main__                 | 100  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-26 18:16 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-26 18:16 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-26 18:16 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fa3130cf4c0>(([], {}))
+07-26 18:16 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-26 18:16 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fa3130d3130>] with trainner: DEFAULT({'episodes': 2})
+07-26 18:16 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-26 18:16 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-26 18:20 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-26 18:20 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-26 18:20 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-26 18:20 | INFO    | __main__                 | 100  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-26 18:20 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-26 18:20 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-26 18:20 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fdd2be9a4c0>(([], {}))
+07-26 18:20 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-26 18:20 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fdd2bea1100>] with trainner: DEFAULT({'episodes': 2})
+07-26 18:20 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-26 18:20 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-26 18:25 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-26 18:25 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-26 18:25 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-26 18:25 | INFO    | __main__                 | 101  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-26 18:25 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-26 18:25 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-26 18:25 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f6b61e984c0>(([], {}))
+07-26 18:25 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-26 18:25 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f6b61e9f100>] with trainner: DEFAULT({'episodes': 2})
+07-26 18:27 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-26 18:27 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-26 18:27 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-26 18:27 | INFO    | __main__                 | 101  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-26 18:27 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-26 18:27 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-26 18:27 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f3ba64bc4c0>(([], {}))
+07-26 18:28 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-26 18:28 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f3ba64c3100>] with trainner: DEFAULT({'episodes': 2})
+07-26 18:28 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-26 18:31 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-26 18:31 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-26 18:31 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-26 18:31 | INFO    | __main__                 | 100  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-26 18:31 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-26 18:31 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-26 18:31 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fa46a1754c0>(([], {}))
+07-26 18:31 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-26 18:31 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fa46a17c100>] with trainner: DEFAULT({'episodes': 2})
+07-26 18:31 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-26 18:32 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-26 18:35 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-26 18:35 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-26 18:35 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-26 18:35 | INFO    | __main__                 | 101  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-26 18:35 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-26 18:35 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-26 18:35 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f6a1eacf550>(([], {}))
+07-26 18:35 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-26 18:35 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f6a1ead1190>] with trainner: DEFAULT({'episodes': 2})
+07-26 18:35 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-26 18:35 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-26 19:16 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-26 19:16 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-26 19:16 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-26 19:16 | INFO    | __main__                 | 101  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-26 19:16 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-26 19:16 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+07-26 19:16 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f5209fb1550>(([], {}))
+07-26 19:16 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-26 19:16 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7f5209fb6130>] with trainner: DEFAULT({'episodes': 2})
+07-26 19:34 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-26 19:34 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+07-26 19:34 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f5209fb1550>(([], {}))
+07-26 19:34 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-26 19:34 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7f5206547910>] with trainner: DEFAULT({'episodes': 2})
+07-26 19:51 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-26 19:52 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-26 19:52 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f5209fb1550>(([], {}))
+07-26 19:52 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-26 19:52 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f520648ffa0>] with trainner: DEFAULT({'episodes': 2})
+07-26 19:52 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-26 19:52 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-31 11:12 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-31 11:12 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-31 11:12 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-31 11:12 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-31 11:12 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-31 11:12 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-31 11:12 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fb207755550>(([], {}))
+07-31 11:12 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-31 11:12 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fb207757190>] with trainner: DEFAULT({'episodes': 2})
+07-31 11:14 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-31 11:15 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-31 11:49 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-31 11:49 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-31 11:49 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-31 11:49 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-31 11:49 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-31 11:49 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-31 11:49 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f47976da550>(([], {}))
+07-31 11:49 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-31 11:49 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f47976dd160>] with trainner: DEFAULT({'episodes': 2})
+07-31 11:50 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-31 11:51 | INFO    | src.AutoGrid             | 197  | Finished execution.
+07-31 16:01 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-31 16:01 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-31 16:01 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-31 16:01 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-31 16:01 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-31 16:01 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+07-31 16:01 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fa64402e550>(([], {}))
+07-31 16:01 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-31 16:01 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7fa6440330d0>] with trainner: DEFAULT({'episodes': 3})
+07-31 16:31 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-31 16:31 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+07-31 16:31 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fa64402e550>(([], {}))
+07-31 16:31 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-31 16:31 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7fa6406a8430>] with trainner: DEFAULT({'episodes': 3})
+07-31 17:01 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-31 17:01 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-31 17:01 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fa64402e550>(([], {}))
+07-31 17:01 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-31 17:01 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fa633dbef10>] with trainner: DEFAULT({'episodes': 3})
+07-31 17:02 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-31 17:02 | INFO    | src.AutoGrid             | 196  | Finished execution.
+07-31 17:28 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-31 17:28 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-31 17:28 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-31 17:28 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-31 17:28 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-31 17:28 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+07-31 17:28 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f111da84550>(([], {}))
+07-31 17:29 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-31 17:29 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-31 17:29 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-31 17:29 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-31 17:29 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-31 17:29 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+07-31 17:29 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f0a777d4550>(([], {}))
+07-31 17:29 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-31 17:29 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7f0a777db100>] with trainner: DEFAULT({'episodes': 5})
+07-31 18:07 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+07-31 18:07 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+07-31 18:07 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+07-31 18:07 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+07-31 18:07 | INFO    | src.AutoGrid             | 171  | Starting execution.
+07-31 18:07 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+07-31 18:07 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f7e62ace550>(([], {}))
+07-31 18:07 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-31 18:07 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7f7e62ad5100>] with trainner: DEFAULT({'episodes': 5})
+07-31 19:02 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-31 19:02 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+07-31 19:02 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f7e62ace550>(([], {}))
+07-31 19:02 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-31 19:02 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7f7e5f067130>] with trainner: DEFAULT({'episodes': 5})
+07-31 19:57 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-31 19:58 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+07-31 19:58 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f7e62ace550>(([], {}))
+07-31 19:58 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+07-31 19:58 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f7e62a4e130>] with trainner: DEFAULT({'episodes': 5})
+07-31 19:58 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+07-31 19:58 | INFO    | src.AutoGrid             | 196  | Finished execution.
+08-01 00:29 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+08-01 00:29 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+08-01 00:29 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+08-01 00:29 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+08-01 00:29 | INFO    | src.AutoGrid             | 171  | Starting execution.
+08-01 00:29 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+08-01 00:29 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f24777f1550>(([], {}))
+08-01 00:29 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+08-01 00:29 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+08-01 00:29 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+08-01 00:29 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+08-01 00:29 | INFO    | src.AutoGrid             | 171  | Starting execution.
+08-01 00:29 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+08-01 00:29 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fa328991550>(([], {}))
+08-01 00:29 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-01 00:29 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7fa328996130>] with trainner: DEFAULT({'episodes': 10})
+08-01 02:30 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-01 02:31 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+08-01 02:31 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fa328991550>(([], {}))
+08-01 02:31 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-01 02:31 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7fa31febde20>] with trainner: DEFAULT({'episodes': 10})
+08-01 04:37 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-01 04:37 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+08-01 04:37 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fa328991550>(([], {}))
+08-01 04:37 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-01 04:37 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fa3288ff0d0>] with trainner: DEFAULT({'episodes': 10})
+08-01 04:38 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-01 04:38 | INFO    | src.AutoGrid             | 196  | Finished execution.
+08-01 16:40 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+08-01 16:40 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+08-01 16:40 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+08-01 16:40 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+08-01 16:40 | INFO    | src.AutoGrid             | 171  | Starting execution.
+08-01 16:40 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+08-01 16:40 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fed630e4550>(([], {}))
+08-01 16:40 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-01 16:40 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7fed630e8160>] with trainner: DEFAULT({'episodes': 15})
+08-01 19:41 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-01 19:42 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+08-01 19:42 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fed630e4550>(([], {}))
+08-01 19:42 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-01 19:42 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7fed5f743310>] with trainner: DEFAULT({'episodes': 15})
+08-01 22:52 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-01 22:53 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+08-01 22:53 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fed630e4550>(([], {}))
+08-01 22:53 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-01 22:53 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fed630a0c10>] with trainner: DEFAULT({'episodes': 15})
+08-01 22:54 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-01 22:54 | INFO    | src.AutoGrid             | 196  | Finished execution.
+08-02 00:03 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+08-02 00:03 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+08-02 00:03 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+08-02 00:03 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+08-02 00:03 | INFO    | src.AutoGrid             | 171  | Starting execution.
+08-02 00:03 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+08-02 00:03 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f370ef13550>(([], {}))
+08-02 00:05 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+08-02 00:05 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+08-02 00:05 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+08-02 00:05 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+08-02 00:05 | INFO    | src.AutoGrid             | 171  | Starting execution.
+08-02 00:05 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+08-02 00:05 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f009da9b550>(([], {}))
+08-02 00:05 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-02 00:05 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7f009daa0130>] with trainner: DEFAULT({'episodes': 20})
+08-02 04:09 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-02 04:09 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+08-02 04:09 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f009da9b550>(([], {}))
+08-02 04:09 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-02 04:09 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7f009a037040>] with trainner: DEFAULT({'episodes': 20})
+08-02 08:28 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-02 08:29 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+08-02 08:29 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f009da9b550>(([], {}))
+08-02 08:29 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-02 08:29 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f0098fd9490>] with trainner: DEFAULT({'episodes': 20})
+08-02 08:30 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-02 08:30 | INFO    | src.AutoGrid             | 196  | Finished execution.
+08-02 18:33 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+08-02 18:33 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+08-02 18:33 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+08-02 18:33 | INFO    | __main__                 | 104  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+08-02 18:33 | INFO    | src.AutoGrid             | 171  | Starting execution.
+08-02 18:33 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+08-02 18:33 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f24affac550>(([], {}))
+08-02 18:33 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-02 18:33 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7f24affaf160>] with trainner: DEFAULT({'episodes': 1, 'deterministic': True})
+08-02 18:33 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+08-02 18:33 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+08-02 18:33 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+08-02 18:33 | INFO    | __main__                 | 104  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+08-02 18:33 | INFO    | src.AutoGrid             | 171  | Starting execution.
+08-02 18:33 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+08-02 18:33 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f9df7e2b550>(([], {}))
+08-02 18:33 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-02 18:33 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7f9df7e30130>] with trainner: DEFAULT({'episodes': 1, 'deterministic': True})
+08-02 18:33 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+08-02 18:33 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+08-02 18:33 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+08-02 18:33 | INFO    | __main__                 | 104  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+08-02 18:33 | INFO    | src.AutoGrid             | 171  | Starting execution.
+08-02 18:33 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+08-02 18:33 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fabf9c7c550>(([], {}))
+08-02 18:33 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-02 18:33 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7fabf9c7f160>] with trainner: DEFAULT({'episodes': 1, 'deterministic': 'True'})
+08-20 14:46 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+08-20 14:46 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+08-20 14:46 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+08-20 14:46 | INFO    | __main__                 | 104  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+08-20 14:46 | INFO    | src.AutoGrid             | 171  | Starting execution.
+08-20 14:46 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+08-20 14:46 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fc247421550>(([], {}))
+08-20 14:46 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-20 14:46 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7fc247427100>] with trainner: DEFAULT({'episodes': 3, 'deterministic': True})
+08-20 14:51 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+08-20 14:51 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+08-20 14:51 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+08-20 14:51 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+08-20 14:51 | INFO    | src.AutoGrid             | 171  | Starting execution.
+08-20 14:51 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+08-20 14:51 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f3b253b1550>(([], {}))
+08-20 14:51 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-20 14:51 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7f3b253b70d0>] with trainner: DEFAULT({'episodes': 3})
+08-20 15:22 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-20 15:22 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+08-20 15:22 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f3b253b1550>(([], {}))
+08-20 15:22 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-20 15:22 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7f3b21a2e430>] with trainner: DEFAULT({'episodes': 3})
+08-20 15:53 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-20 15:53 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+08-20 15:53 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f3b253b1550>(([], {}))
+08-20 15:53 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-20 15:53 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f3b19150f10>] with trainner: DEFAULT({'episodes': 3})
+08-20 15:53 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-20 15:54 | INFO    | src.AutoGrid             | 196  | Finished execution.
+08-20 18:51 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+08-20 18:51 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+08-20 18:51 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+08-20 18:51 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+08-20 18:51 | INFO    | src.AutoGrid             | 171  | Starting execution.
+08-20 18:51 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+08-20 18:51 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f9d38e0b550>(([], {}))
+08-20 18:51 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-20 18:51 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7f9d38e11100>] with trainner: DEFAULT({'episodes': 5})
+08-20 19:49 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-20 19:50 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+08-20 19:50 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f9d38e0b550>(([], {}))
+08-20 19:50 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-20 19:50 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7f9d353a0130>] with trainner: DEFAULT({'episodes': 5})
+08-20 20:49 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-20 20:50 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+08-20 20:50 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f9d38e0b550>(([], {}))
+08-20 20:50 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-20 20:50 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f9d38d8dfd0>] with trainner: DEFAULT({'episodes': 5})
+08-20 20:50 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-20 20:50 | INFO    | src.AutoGrid             | 196  | Finished execution.
+08-20 22:04 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+08-20 22:04 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+08-20 22:04 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+08-20 22:04 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+08-20 22:04 | INFO    | src.AutoGrid             | 171  | Starting execution.
+08-20 22:04 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+08-20 22:04 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fbfdadac550>(([], {}))
+08-20 22:04 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-20 22:04 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7fbfdadb20a0>] with trainner: DEFAULT({'episodes': 10})
+08-21 00:04 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-21 00:04 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+08-21 00:04 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fbfdadac550>(([], {}))
+08-21 00:04 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-21 00:04 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7fbfd621f820>] with trainner: DEFAULT({'episodes': 10})
+08-21 02:08 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-21 02:09 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+08-21 02:09 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fbfdadac550>(([], {}))
+08-21 02:09 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-21 02:09 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fbfd62d3e50>] with trainner: DEFAULT({'episodes': 10})
+08-21 02:10 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-21 02:10 | INFO    | src.AutoGrid             | 196  | Finished execution.
+08-21 06:35 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+08-21 06:35 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+08-21 06:35 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+08-21 06:35 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+08-21 06:35 | INFO    | src.AutoGrid             | 171  | Starting execution.
+08-21 06:35 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+08-21 06:35 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f81a47a6550>(([], {}))
+08-21 06:35 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-21 06:35 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7f81a47ac0a0>] with trainner: DEFAULT({'episodes': 15})
+08-21 09:36 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-21 09:36 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+08-21 09:36 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f81a47a6550>(([], {}))
+08-21 09:36 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-21 09:36 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7f819bc93130>] with trainner: DEFAULT({'episodes': 15})
+08-21 12:52 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-21 12:52 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+08-21 12:52 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f81a47a6550>(([], {}))
+08-21 12:52 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-21 12:52 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f81a47ace20>] with trainner: DEFAULT({'episodes': 15})
+08-21 12:54 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-21 12:54 | INFO    | src.AutoGrid             | 196  | Finished execution.
+08-21 13:10 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+08-21 13:10 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+08-21 13:10 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+08-21 13:10 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+08-21 13:10 | INFO    | src.AutoGrid             | 171  | Starting execution.
+08-21 13:10 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+08-21 13:10 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f4ee3b42550>(([], {}))
+08-21 13:10 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-21 13:10 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7f4ee3b480a0>] with trainner: DEFAULT({'episodes': 20})
+08-21 17:23 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-21 17:23 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+08-21 17:23 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f4ee3b42550>(([], {}))
+08-21 17:23 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-21 17:23 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7f4ee007f790>] with trainner: DEFAULT({'episodes': 20})
+08-21 22:05 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-21 22:06 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+08-21 22:06 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f4ee3b42550>(([], {}))
+08-21 22:06 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-21 22:06 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f4ee3afafd0>] with trainner: DEFAULT({'episodes': 20})
+08-21 22:08 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-21 22:08 | INFO    | src.AutoGrid             | 196  | Finished execution.
+08-21 22:47 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+08-21 22:47 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+08-21 22:47 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+08-21 22:47 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+08-21 22:47 | INFO    | src.AutoGrid             | 171  | Starting execution.
+08-21 22:47 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+08-21 22:47 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f36991b1550>(([], {}))
+08-21 22:47 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-21 22:47 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7f3699169a00>] with trainner: DEFAULT({'episodes': 20})
+08-22 05:36 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-22 05:37 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+08-22 05:37 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f36991b1550>(([], {}))
+08-22 05:37 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-22 05:37 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7f36956f74f0>] with trainner: DEFAULT({'episodes': 20})
+08-22 13:48 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-22 13:48 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+08-22 13:48 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f36991b1550>(([], {}))
+08-22 13:48 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-22 13:48 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f368e748b50>] with trainner: DEFAULT({'episodes': 20})
+08-22 13:51 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-22 13:51 | INFO    | src.AutoGrid             | 196  | Finished execution.
+08-22 14:24 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+08-22 14:24 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+08-22 14:24 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+08-22 14:24 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+08-22 14:24 | INFO    | src.AutoGrid             | 171  | Starting execution.
+08-22 14:24 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+08-22 14:24 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fdf423cc550>(([], {}))
+08-22 14:24 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-22 14:24 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7fdf42396a00>] with trainner: DEFAULT({'episodes': 3})
+08-22 15:17 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-22 15:17 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+08-22 15:17 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fdf423cc550>(([], {}))
+08-22 15:18 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-22 15:18 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7fdf422e7520>] with trainner: DEFAULT({'episodes': 3})
+08-22 16:14 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-22 16:14 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+08-22 16:14 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fdf423cc550>(([], {}))
+08-22 16:14 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-22 16:14 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fdf3ea16b50>] with trainner: DEFAULT({'episodes': 3})
+08-22 16:15 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-22 16:15 | INFO    | src.AutoGrid             | 196  | Finished execution.
+08-22 17:01 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+08-22 17:01 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+08-22 17:01 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+08-22 17:01 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+08-22 17:01 | INFO    | src.AutoGrid             | 171  | Starting execution.
+08-22 17:01 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+08-22 17:01 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f218d602550>(([], {}))
+08-22 17:01 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-22 17:01 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7f218d5baa00>] with trainner: DEFAULT({'episodes': 5})
+08-22 18:21 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-22 18:22 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+08-22 18:22 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f218d602550>(([], {}))
+08-22 18:22 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-22 18:22 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7f218d50b520>] with trainner: DEFAULT({'episodes': 5})
+08-22 19:41 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-22 19:41 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+08-22 19:41 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f218d602550>(([], {}))
+08-22 19:41 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-22 19:41 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f2173c3c850>] with trainner: DEFAULT({'episodes': 5})
+08-22 19:42 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-22 19:42 | INFO    | src.AutoGrid             | 196  | Finished execution.
+08-22 20:57 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+08-22 20:57 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+08-22 20:57 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+08-22 20:57 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+08-22 20:57 | INFO    | src.AutoGrid             | 171  | Starting execution.
+08-22 20:57 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+08-22 20:57 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f2a44add550>(([], {}))
+08-22 20:57 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-22 20:57 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7f2a44aa7a00>] with trainner: DEFAULT({'episodes': 10})
+08-22 23:44 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-22 23:45 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+08-22 23:45 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f2a44add550>(([], {}))
+08-22 23:45 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-22 23:45 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7f2a41162c70>] with trainner: DEFAULT({'episodes': 10})
+08-23 02:37 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-23 02:37 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+08-23 02:37 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f2a44add550>(([], {}))
+08-23 02:37 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-23 02:37 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f2a138a06a0>] with trainner: DEFAULT({'episodes': 10})
+08-23 02:38 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-23 02:39 | INFO    | src.AutoGrid             | 196  | Finished execution.
+08-23 03:14 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+08-23 03:14 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+08-23 03:14 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+08-23 03:14 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+08-23 03:14 | INFO    | src.AutoGrid             | 171  | Starting execution.
+08-23 03:14 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+08-23 03:14 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f47d90dd550>(([], {}))
+08-23 03:14 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-23 03:14 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7f47d9095a00>] with trainner: DEFAULT({'episodes': 15})
+08-23 07:45 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-23 07:45 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+08-23 07:45 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f47d90dd550>(([], {}))
+08-23 07:45 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-23 07:45 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7f47d5715490>] with trainner: DEFAULT({'episodes': 15})
+08-23 11:43 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+08-23 11:43 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+08-23 11:43 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+08-23 11:43 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+08-23 11:43 | INFO    | src.AutoGrid             | 171  | Starting execution.
+08-23 11:43 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+08-23 11:43 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fdd2b361550>(([], {}))
+08-23 11:43 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-23 11:43 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7fdd2b32ba00>] with trainner: DEFAULT({'episodes': 15})
+08-23 13:33 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-23 13:34 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+08-23 13:34 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f47d90dd550>(([], {}))
+08-23 13:34 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-23 13:34 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f479ba51100>] with trainner: DEFAULT({'episodes': 15})
+08-23 13:36 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-23 13:36 | INFO    | src.AutoGrid             | 196  | Finished execution.
+08-23 16:47 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-23 16:48 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+08-23 16:48 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fdd2b361550>(([], {}))
+08-23 16:48 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-23 16:48 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7fdd2798f490>] with trainner: DEFAULT({'episodes': 15})
+08-23 21:41 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-23 21:42 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+08-23 21:42 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fdd2b361550>(([], {}))
+08-23 21:42 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-23 21:42 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fdcedd20130>] with trainner: DEFAULT({'episodes': 15})
+08-23 21:44 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-23 21:44 | INFO    | src.AutoGrid             | 196  | Finished execution.
+08-24 20:58 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+08-24 20:58 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+08-24 20:58 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+08-24 20:58 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+08-24 20:58 | INFO    | src.AutoGrid             | 171  | Starting execution.
+08-24 20:58 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+08-24 20:58 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f5083078550>(([], {}))
+08-24 20:58 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-24 20:58 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7f508307e0a0>] with trainner: DEFAULT({'episodes': 25})
+08-25 02:09 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-25 02:10 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+08-25 02:10 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f5083078550>(([], {}))
+08-25 02:10 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-25 02:10 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7f507f6f4cd0>] with trainner: DEFAULT({'episodes': 25})
+08-25 07:43 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-25 07:43 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+08-25 07:43 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f5083078550>(([], {}))
+08-25 07:43 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-25 07:43 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f507f6d7130>] with trainner: DEFAULT({'episodes': 25})
+08-25 07:45 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-25 07:45 | INFO    | src.AutoGrid             | 196  | Finished execution.
+08-26 02:38 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+08-26 02:38 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+08-26 02:38 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+08-26 02:38 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+08-26 02:38 | INFO    | src.AutoGrid             | 171  | Starting execution.
+08-26 02:38 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+08-26 02:38 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f1bb200b550>(([], {}))
+08-26 02:38 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-26 02:38 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7f1bb2010130>] with trainner: DEFAULT({'episodes': 25})
+08-26 02:38 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+08-26 02:38 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+08-26 02:38 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+08-26 02:38 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+08-26 02:38 | INFO    | src.AutoGrid             | 171  | Starting execution.
+08-26 02:38 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+08-26 02:38 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fe7cee0b550>(([], {}))
+08-26 02:38 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-26 02:38 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7fe7cee11100>] with trainner: DEFAULT({'episodes': 25})
+08-26 07:50 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-26 07:50 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+08-26 07:50 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fe7cee0b550>(([], {}))
+08-26 07:50 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-26 07:50 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7fe7cb44f4c0>] with trainner: DEFAULT({'episodes': 25})
+08-26 13:22 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-26 13:23 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+08-26 13:23 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7fe7cee0b550>(([], {}))
+08-26 13:23 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-26 13:23 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7fe7cb4ed0d0>] with trainner: DEFAULT({'episodes': 25})
+08-26 13:25 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-26 13:25 | INFO    | src.AutoGrid             | 196  | Finished execution.
+08-28 22:02 | DEBUG   | src.AutoGrid             | 126  | Format logger configured [{'fmt': '{asctime} | {levelname:7s} | {name:24s} | {lineno:<4n} | {message}', 'style': '{', 'datefmt': '%m-%d %H:%M'}]
+08-28 22:02 | DEBUG   | src.AutoGrid             | 127  | Console logger configured [{'level': 'DEBUG'}]
+08-28 22:02 | DEBUG   | src.AutoGrid             | 128  | File logger configured [{'level': 'DEBUG', 'filename': 'execution_log.log', 'maxBytes': 10485760, 'backupCount': 10, 'mode': 'a'}]
+08-28 22:02 | INFO    | __main__                 | 103  | Executing experiment file /home/yacine/Escritorio/AutoGrid-main/experiments/my_experiments/CityLearn/Decentralized-Independent SAC.py
+08-28 22:02 | INFO    | src.AutoGrid             | 171  | Starting execution.
+08-28 22:02 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_SAC]
+08-28 22:02 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f8deaa0b550>(([], {}))
+08-28 22:02 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-28 22:02 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.sac.SAC object at 0x7f8deaa0d1c0>] with trainner: DEFAULT({'episodes': 25})
+08-29 05:23 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-29 05:24 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_MARLISA]
+08-29 05:24 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f8deaa0b550>(([], {}))
+08-29 05:24 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-29 05:24 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.marlisa.MARLISA object at 0x7f8de7027f70>] with trainner: DEFAULT({'episodes': 25})
+08-29 13:19 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-29 13:19 | INFO    | src.AutoGrid             | 173  | Executing experiment [experiment_RBC]
+08-29 13:19 | DEBUG   | src.AutoGrid             | 153  | Creating a new environment using <function create_env at 0x7f8deaa0b550>(([], {}))
+08-29 13:19 | INFO    | src.AutoGrid             | 180  | Training agent with [DEFAULT]
+08-29 13:19 | DEBUG   | src.trainner.trainer     | 15   | Training agent [<citylearn.agents.rbc.RBC object at 0x7f8da18b74f0>] with trainner: DEFAULT({'episodes': 25})
+08-29 13:22 | INFO    | src.AutoGrid             | 185  | Evaluating agent with [EVALUATION_CITYLEARN]
+08-29 13:23 | INFO    | src.AutoGrid             | 196  | Finished execution.

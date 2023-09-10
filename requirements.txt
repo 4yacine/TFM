@@ -1,0 +1,5 @@
+#This are the minimal AutoGrid Requirements.
+#You will need this libraries regardles of the experiment been executed
+pandas==1.4.2
+matplotlib==3.5.2
+urllib3
